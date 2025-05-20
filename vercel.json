@@ -1,9 +1,14 @@
 {
+  "version": 2,
   "buildCommand": "next build",
   "devCommand": "next dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "env": {
-    "PUBLIC_FREE_LIMIT": "50"
-  }
+  "outputDirectory": ".next",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ]
 } 
