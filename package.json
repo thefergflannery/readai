@@ -12,8 +12,6 @@
   },
   "dependencies": {
     "@mozilla/readability": "^0.4.4",
-    "@plaiceholder/react": "^3.0.0",
-    "@plaiceholder/tailwindcss": "^3.0.0",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-toast": "^1.1.5",
